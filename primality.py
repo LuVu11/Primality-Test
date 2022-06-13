@@ -17,7 +17,7 @@ def main():
         # Because if the whole is too big it cannot be converted into a float. Time execution will change in n
         limit = int(math.sqrt(x))
         for i in range(2, limit):
-                if(x%i == 0 or x == 0):
+                if(x%i == 0):
                     print("non primo")
                     sys.exit()
         if(x%(math.sqrt(x)) == 0):
